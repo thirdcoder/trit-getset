@@ -1,0 +1,23 @@
+{
+  "name": "trit-ops",
+  "description": "operations on trits, base 3 digits",
+  "version": "0.0.1",
+  "main": "ops.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:/trit-ops.git"
+  },
+  "keywords": [
+    "ternary",
+    "base3",
+    "trits",
+    "math"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
