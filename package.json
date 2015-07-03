@@ -1,11 +1,11 @@
 {
-  "name": "trit-ops",
-  "description": "operations on trits, base 3 digits",
+  "name": "trit-getset",
+  "description": "get and set trits, base 3 digits",
   "version": "0.0.1",
-  "main": "ops.js",
+  "main": "getset.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:/trit-ops.git"
+    "url": "git@github.com:/trit-getset.git"
   },
   "keywords": [
     "ternary",
