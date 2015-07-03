@@ -10,7 +10,7 @@ var ops = require('./');
 var get_trit = ops.get_trit;
 var clear_trit = ops.clear_trit;
 var set_trit = ops.set_trit;
-var trit_slice = ops.trit_slice;
+var slice_trits = ops.slice_trits;
 
 test('get_trit', function(t) {
   t.equal(get_trit(6, 0), 0);
@@ -37,10 +37,10 @@ test('set_trit', function(t) {
   t.end();
 });
 
-test('trit_slice', function(t) {
-  t.equal(trit_slice(bts2n('111000iii'), 0, 3), bts2n('iii'));
-  t.equal(trit_slice(bts2n('111000iii'), 3, 6), bts2n('000'));
-  t.equal(trit_slice(bts2n('111000iii'), 6, 9), bts2n('111'));
+test('slice_trits', function(t) {
+  t.equal(slice_trits(bts2n('111000iii'), 0, 3), bts2n('iii'));
+  t.equal(slice_trits(bts2n('111000iii'), 3, 6), bts2n('000'));
+  t.equal(slice_trits(bts2n('111000iii'), 6, 9), bts2n('111'));
   t.end();
 });
 

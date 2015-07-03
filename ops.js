@@ -28,7 +28,7 @@ function set_trit(n,i,t) {
 }
 
 // extract trits of n from range a to b (0=lst)
-function trit_slice(n,a,b) {
+function slice_trits(n,a,b) {
   var s = n2bts(n);
   var ss = s.substring(s.length - b, s.length - a);
   return bts2n(ss);
@@ -37,5 +37,5 @@ module.exports = {
   get_trit: get_trit,
   clear_trit: clear_trit,
   set_trit: set_trit,
-  trit_slice: trit_slice
+  slice_trits: slice_trits
 };
