@@ -34,6 +34,8 @@ test('set_trit', function(t) {
   t.equal(n2bts(set_trit(bts2n('1i'), 0,-1)), '1i');
   t.equal(n2bts(set_trit(bts2n('1i'), 1, 0)),  'i');
   t.equal(n2bts(set_trit(bts2n('1i'), 1,-1)), 'ii');
+  t.equal(n2bts(set_trit(bts2n('00000'), 4,-1)), 'i0000');
+  t.equal(n2bts(set_trit(bts2n('00000'), 4, 0)), '0');
   t.end();
 });
 
