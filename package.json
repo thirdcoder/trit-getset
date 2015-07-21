@@ -1,7 +1,7 @@
 {
   "name": "trit-getset",
   "description": "get and set trits, base 3 digits",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "getset.js",
   "repository": {
     "type": "git",
