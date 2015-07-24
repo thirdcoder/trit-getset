@@ -2,6 +2,9 @@
 
 Get and set trits (base 3 digits) of a signed integer
 
+[![Build Status](https://travis-ci.org/thirdcoder/trit-getset.svg?branch=master)](https://travis-ci.org/thirdcoder/trit-getset)
+[![npm version](https://badge.fury.io/js/trit-getset.svg)](https://www.npmjs.com/package/trit-getset)
+
 Usage:
 
     var get_trit = require('trit-getset').get_trit;
